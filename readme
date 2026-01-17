@@ -1,0 +1,32 @@
+初始化项目:
+    npm init
+
+package.json 项目描述文件
+
+淘宝镜像npm
+npm config set registry https://registry.npmmirror.com
+
+cnpm install jquery
+
+
+临时切换
+npm install --registry=https://registry.npmmirror.com
+
+换回官方
+npm config set registry https://registry.npmjs.org
+
+
+
+npm install xxx -g 全局
+npm install xxx -S 局部， 生产环境 (重点)
+npm install xxx -D 局部， 开发环境
+
+
+req.url  获取路径和参数
+
+引入http, url模块
+url.parse(reqUrl, true) 解析参数
+
+
+
+
