@@ -28,5 +28,24 @@ req.url  获取路径和参数
 url.parse(reqUrl, true) 解析参数
 
 
+mysql 用 navicat 连接
+
+同时需要在目录下下载 npm install mysql
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
